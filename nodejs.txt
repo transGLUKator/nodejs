@@ -1,0 +1,757 @@
+<NotepadPlus>
+    <Project name="webChat">
+        <Folder name="lib">
+            <File name="lib\chat_server.js" />
+        </Folder>
+        <Folder name="node_modules">
+            <Folder name="mime">
+                <Folder name="types">
+                    <File name="node_modules\mime\types\mime.types" />
+                    <File name="node_modules\mime\types\node.types" />
+                </Folder>
+                <File name="node_modules\mime\LICENSE" />
+                <File name="node_modules\mime\mime.js" />
+                <File name="node_modules\mime\package.json" />
+                <File name="node_modules\mime\README.md" />
+                <File name="node_modules\mime\test.js" />
+            </Folder>
+            <Folder name="socket.io">
+                <Folder name="benchmarks">
+                    <File name="node_modules\socket.io\benchmarks\decode.bench.js" />
+                    <File name="node_modules\socket.io\benchmarks\encode.bench.js" />
+                    <File name="node_modules\socket.io\benchmarks\runner.js" />
+                </Folder>
+                <Folder name="lib">
+                    <Folder name="stores">
+                        <File name="node_modules\socket.io\lib\stores\memory.js" />
+                        <File name="node_modules\socket.io\lib\stores\redis.js" />
+                    </Folder>
+                    <Folder name="transports">
+                        <Folder name="websocket">
+                            <File name="node_modules\socket.io\lib\transports\websocket\default.js" />
+                            <File name="node_modules\socket.io\lib\transports\websocket\hybi-07-12.js" />
+                            <File name="node_modules\socket.io\lib\transports\websocket\hybi-16.js" />
+                            <File name="node_modules\socket.io\lib\transports\websocket\index.js" />
+                        </Folder>
+                        <File name="node_modules\socket.io\lib\transports\flashsocket.js" />
+                        <File name="node_modules\socket.io\lib\transports\htmlfile.js" />
+                        <File name="node_modules\socket.io\lib\transports\http-polling.js" />
+                        <File name="node_modules\socket.io\lib\transports\http.js" />
+                        <File name="node_modules\socket.io\lib\transports\index.js" />
+                        <File name="node_modules\socket.io\lib\transports\jsonp-polling.js" />
+                        <File name="node_modules\socket.io\lib\transports\websocket.js" />
+                        <File name="node_modules\socket.io\lib\transports\xhr-polling.js" />
+                    </Folder>
+                    <File name="node_modules\socket.io\lib\logger.js" />
+                    <File name="node_modules\socket.io\lib\manager.js" />
+                    <File name="node_modules\socket.io\lib\namespace.js" />
+                    <File name="node_modules\socket.io\lib\parser.js" />
+                    <File name="node_modules\socket.io\lib\socket.io.js" />
+                    <File name="node_modules\socket.io\lib\socket.js" />
+                    <File name="node_modules\socket.io\lib\static.js" />
+                    <File name="node_modules\socket.io\lib\store.js" />
+                    <File name="node_modules\socket.io\lib\transport.js" />
+                    <File name="node_modules\socket.io\lib\util.js" />
+                </Folder>
+                <Folder name="node_modules">
+                    <Folder name="base64id">
+                        <Folder name="lib">
+                            <File name="node_modules\socket.io\node_modules\base64id\lib\base64id.js" />
+                        </Folder>
+                        <File name="node_modules\socket.io\node_modules\base64id\.npmignore" />
+                        <File name="node_modules\socket.io\node_modules\base64id\package.json" />
+                        <File name="node_modules\socket.io\node_modules\base64id\README.md" />
+                    </Folder>
+                    <Folder name="policyfile">
+                        <Folder name="doc">
+                            <File name="node_modules\socket.io\node_modules\policyfile\doc\index.html" />
+                        </Folder>
+                        <Folder name="examples">
+                            <File name="node_modules\socket.io\node_modules\policyfile\examples\basic.fallback.js" />
+                            <File name="node_modules\socket.io\node_modules\policyfile\examples\basic.js" />
+                        </Folder>
+                        <Folder name="lib">
+                            <File name="node_modules\socket.io\node_modules\policyfile\lib\server.js" />
+                        </Folder>
+                        <Folder name="tests">
+                            <Folder name="ssl">
+                                <File name="node_modules\socket.io\node_modules\policyfile\tests\ssl\ssl.crt" />
+                                <File name="node_modules\socket.io\node_modules\policyfile\tests\ssl\ssl.private.key" />
+                            </Folder>
+                            <File name="node_modules\socket.io\node_modules\policyfile\tests\unit.test.js" />
+                        </Folder>
+                        <File name="node_modules\socket.io\node_modules\policyfile\.npmignore" />
+                        <File name="node_modules\socket.io\node_modules\policyfile\index.js" />
+                        <File name="node_modules\socket.io\node_modules\policyfile\LICENSE" />
+                        <File name="node_modules\socket.io\node_modules\policyfile\Makefile" />
+                        <File name="node_modules\socket.io\node_modules\policyfile\package.json" />
+                        <File name="node_modules\socket.io\node_modules\policyfile\README.md" />
+                    </Folder>
+                    <Folder name="redis">
+                        <Folder name="benches">
+                            <Folder name="stress">
+                                <Folder name="pubsub">
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\pubsub\pub.js" />
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\pubsub\run" />
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\pubsub\server.js" />
+                                </Folder>
+                                <Folder name="rpushblpop">
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\rpushblpop\pub.js" />
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\rpushblpop\run" />
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\rpushblpop\server.js" />
+                                </Folder>
+                                <Folder name="speed">
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\speed\00" />
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\speed\plot" />
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\speed\size-rate.png" />
+                                    <File name="node_modules\socket.io\node_modules\redis\benches\stress\speed\speed.js" />
+                                </Folder>
+                                <File name="node_modules\socket.io\node_modules\redis\benches\stress\codec.js" />
+                            </Folder>
+                            <File name="node_modules\socket.io\node_modules\redis\benches\buffer_bench.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\benches\hiredis_parser.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\benches\reconnect_test.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\benches\re_sub_test.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\benches\sub_quit_test.js" />
+                        </Folder>
+                        <Folder name="examples">
+                            <File name="node_modules\socket.io\node_modules\redis\examples\auth.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\backpressure_drain.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\eval.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\extend.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\file.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\mget.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\monitor.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\multi.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\multi2.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\psubscribe.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\pub_sub.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\simple.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\sort.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\subqueries.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\subquery.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\unix_socket.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\examples\web_server.js" />
+                        </Folder>
+                        <Folder name="lib">
+                            <Folder name="parser">
+                                <File name="node_modules\socket.io\node_modules\redis\lib\parser\hiredis.js" />
+                                <File name="node_modules\socket.io\node_modules\redis\lib\parser\javascript.js" />
+                            </Folder>
+                            <File name="node_modules\socket.io\node_modules\redis\lib\commands.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\lib\queue.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\lib\to_array.js" />
+                            <File name="node_modules\socket.io\node_modules\redis\lib\util.js" />
+                        </Folder>
+                        <File name="node_modules\socket.io\node_modules\redis\.npmignore" />
+                        <File name="node_modules\socket.io\node_modules\redis\changelog.md" />
+                        <File name="node_modules\socket.io\node_modules\redis\diff_multi_bench_output.js" />
+                        <File name="node_modules\socket.io\node_modules\redis\generate_commands.js" />
+                        <File name="node_modules\socket.io\node_modules\redis\index.js" />
+                        <File name="node_modules\socket.io\node_modules\redis\mem.js" />
+                        <File name="node_modules\socket.io\node_modules\redis\multi_bench.js" />
+                        <File name="node_modules\socket.io\node_modules\redis\package.json" />
+                        <File name="node_modules\socket.io\node_modules\redis\README.md" />
+                        <File name="node_modules\socket.io\node_modules\redis\test.js" />
+                    </Folder>
+                    <Folder name="socket.io-client">
+                        <Folder name="bin">
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\bin\builder.js" />
+                        </Folder>
+                        <Folder name="components">
+                            <Folder name="component-bind">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\component-bind\component.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\component-bind\index.js" />
+                            </Folder>
+                            <Folder name="component-emitter">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\component-emitter\component.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\component-emitter\index.js" />
+                            </Folder>
+                            <Folder name="component-json">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\component-json\component.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\component-json\index.js" />
+                            </Folder>
+                            <Folder name="component-json-fallback">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\component-json-fallback\component.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\component-json-fallback\index.js" />
+                            </Folder>
+                            <Folder name="learnboost-engine.io-client">
+                                <Folder name="lib">
+                                    <Folder name="transports">
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\flashsocket.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\index.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\polling-jsonp.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\polling-xhr.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\polling.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transports\websocket.js" />
+                                    </Folder>
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\emitter.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\index.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\parser.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\socket.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\transport.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\lib\util.js" />
+                                </Folder>
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-engine.io-client\component.json" />
+                            </Folder>
+                            <Folder name="learnboost-socket.io-protocol">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-socket.io-protocol\component.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\learnboost-socket.io-protocol\index.js" />
+                            </Folder>
+                            <Folder name="timoxley-to-array">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\timoxley-to-array\component.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\timoxley-to-array\index.js" />
+                            </Folder>
+                            <Folder name="visionmedia-debug">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\visionmedia-debug\component.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\visionmedia-debug\debug.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\components\visionmedia-debug\index.js" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="dist">
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\dist\socket.io.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\dist\socket.io.min.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\dist\WebSocketMain.swf" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\dist\WebSocketMainInsecure.swf" />
+                        </Folder>
+                        <Folder name="lib">
+                            <Folder name="transports">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\lib\transports\flashsocket.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\lib\transports\htmlfile.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\lib\transports\jsonp-polling.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\lib\transports\websocket.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\lib\transports\xhr-polling.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\lib\transports\xhr.js" />
+                            </Folder>
+                            <Folder name="vendor">
+                                <Folder name="web-socket-js">
+                                    <Folder name="flash-src">
+                                        <Folder name="com">
+                                            <Folder name="adobe">
+                                                <Folder name="net">
+                                                    <Folder name="proxies">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\adobe\net\proxies\RFC2817Socket.as" />
+                                                    </Folder>
+                                                </Folder>
+                                            </Folder>
+                                            <Folder name="gsolo">
+                                                <Folder name="encryption">
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\gsolo\encryption\MD5.as" />
+                                                </Folder>
+                                            </Folder>
+                                            <Folder name="hurlant">
+                                                <Folder name="crypto">
+                                                    <Folder name="cert">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\cert\MozillaRootCertificates.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\cert\X509Certificate.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\cert\X509CertificateCollection.as" />
+                                                    </Folder>
+                                                    <Folder name="hash">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\HMAC.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\IHash.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\IHMAC.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\MAC.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\MD2.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\MD5.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\SHA1.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\SHA224.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\SHA256.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\hash\SHABase.as" />
+                                                    </Folder>
+                                                    <Folder name="prng">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\prng\ARC4.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\prng\IPRNG.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\prng\Random.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\prng\TLSPRF.as" />
+                                                    </Folder>
+                                                    <Folder name="rsa">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\rsa\RSAKey.as" />
+                                                    </Folder>
+                                                    <Folder name="symmetric">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\AESKey.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\aeskey.pl" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\BlowFishKey.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\CBCMode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\CFB8Mode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\CFBMode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\CTRMode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\DESKey.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\dump.txt" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\ECBMode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\ICipher.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\IMode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\IPad.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\IStreamCipher.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\ISymmetricKey.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\IVMode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\NullPad.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\OFBMode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\PKCS5.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\SimpleIVMode.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\SSLPad.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\TLSPad.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\TripleDESKey.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\symmetric\XTeaKey.as" />
+                                                    </Folder>
+                                                    <Folder name="tests">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\AESKeyTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\ARC4Test.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\BigIntegerTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\BlowFishKeyTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\CBCModeTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\CFB8ModeTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\CFBModeTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\CTRModeTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\DESKeyTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\ECBModeTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\HMACTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\ITestHarness.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\MD2Test.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\MD5Test.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\OFBModeTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\RSAKeyTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\SHA1Test.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\SHA224Test.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\SHA256Test.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\TestCase.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\TLSPRFTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\TripleDESKeyTest.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tests\XTeaKeyTest.as" />
+                                                    </Folder>
+                                                    <Folder name="tls">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\BulkCiphers.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\CipherSuites.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\IConnectionState.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\ISecurityParameters.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\KeyExchanges.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\MACs.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\SSLConnectionState.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\SSLEvent.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\SSLSecurityParameters.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSConfig.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSConnectionState.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSEngine.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSError.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSEvent.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSSecurityParameters.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSSocket.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSSocketEvent.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\tls\TLSTest.as" />
+                                                    </Folder>
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\crypto\Crypto.as" />
+                                                </Folder>
+                                                <Folder name="math">
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\BarrettReduction.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\BigInteger.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\bi_internal.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\ClassicReduction.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\IReduction.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\MontgomeryReduction.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\math\NullReduction.as" />
+                                                </Folder>
+                                                <Folder name="util">
+                                                    <Folder name="der">
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\ByteString.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\DER.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\IAsn1Type.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\Integer.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\ObjectIdentifier.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\OID.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\PEM.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\PrintableString.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\Sequence.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\Set.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\Type.as" />
+                                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\der\UTCTime.as" />
+                                                    </Folder>
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\ArrayUtil.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\Base64.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\Hex.as" />
+                                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\com\hurlant\util\Memory.as" />
+                                                </Folder>
+                                            </Folder>
+                                        </Folder>
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\build.sh" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\IWebSocketLogger.as" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\WebSocket.as" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\WebSocketEvent.as" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\WebSocketMain.as" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\flash-src\WebSocketMainInsecure.as" />
+                                    </Folder>
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\.npmignore" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\README.md" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\sample.html" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\swfobject.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\WebSocketMain.swf" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\WebSocketMainInsecure.zip" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\lib\vendor\web-socket-js\web_socket.js" />
+                                </Folder>
+                            </Folder>
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\lib\events.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\lib\io.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\lib\json.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\lib\namespace.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\lib\parser.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\lib\socket.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\lib\transport.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\lib\util.js" />
+                        </Folder>
+                        <Folder name="node_modules">
+                            <Folder name=".bin">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\.bin\uglifyjs" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\.bin\uglifyjs.cmd" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\.bin\wscat" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\.bin\wscat.cmd" />
+                            </Folder>
+                            <Folder name="active-x-obfuscator">
+                                <Folder name="node_modules">
+                                    <Folder name="zeparser">
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\.npmignore" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\benchmark.html" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\index.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\LICENSE" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\package.json" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\README" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\test-parser.html" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\test-tokenizer.html" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\tests.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\Tokenizer.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\unicodecategories.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\node_modules\zeparser\ZeParser.js" />
+                                    </Folder>
+                                </Folder>
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\.npmignore" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\index.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\package.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\Readme.md" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\active-x-obfuscator\test.js" />
+                            </Folder>
+                            <Folder name="uglify-js">
+                                <Folder name="bin">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\bin\uglifyjs" />
+                                </Folder>
+                                <Folder name="lib">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\lib\object-ast.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\lib\parse-js.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\lib\process.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\lib\squeeze-more.js" />
+                                </Folder>
+                                <Folder name="test">
+                                    <Folder name="unit">
+                                        <Folder name="compress">
+                                            <Folder name="expected">
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\array1.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\array2.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\array3.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\array4.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\assignment.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\concatstring.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\const.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\empty-blocks.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\forstatement.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\if.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\ifreturn.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\ifreturn2.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue10.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue11.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue13.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue14.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue16.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue17.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue20.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue21.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue25.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue27.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue278.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue28.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue29.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue30.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue34.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue4.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue48.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue50.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue53.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue54.1.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue68.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue69.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\issue9.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\mangle.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\null_string.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\strict-equals.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\var.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\whitespace.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\expected\with.js" />
+                                            </Folder>
+                                            <Folder name="test">
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\array1.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\array2.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\array3.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\array4.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\assignment.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\concatstring.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\const.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\empty-blocks.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\forstatement.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\if.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\ifreturn.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\ifreturn2.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue10.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue11.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue13.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue14.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue16.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue17.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue20.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue21.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue25.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue27.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue278.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue28.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue29.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue30.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue34.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue4.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue48.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue50.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue53.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue54.1.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue68.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue69.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\issue9.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\mangle.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\null_string.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\strict-equals.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\var.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\whitespace.js" />
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\compress\test\with.js" />
+                                            </Folder>
+                                        </Folder>
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\unit\scripts.js" />
+                                    </Folder>
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\beautify.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\test\testparser.js" />
+                                </Folder>
+                                <Folder name="tmp">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\269.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\app.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\embed-tokens.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\goto.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\goto2.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\hoist.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\instrument.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\instrument2.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\liftvars.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\test.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\uglify-hangs.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\tmp\uglify-hangs2.js" />
+                                </Folder>
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\.npmignore" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\docstyle.css" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\package.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\package.json~" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\README.html" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\README.org" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\uglify-js\uglify-js.js" />
+                            </Folder>
+                            <Folder name="ws">
+                                <Folder name="bench">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bench\parser.benchmark.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bench\sender.benchmark.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bench\speed.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bench\util.js" />
+                                </Folder>
+                                <Folder name="bin">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\bin\wscat" />
+                                </Folder>
+                                <Folder name="doc">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\doc\ws.md" />
+                                </Folder>
+                                <Folder name="examples">
+                                    <Folder name="fileapi">
+                                        <Folder name="public">
+                                            <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\public\app.js" />
+                                            <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\public\index.html" />
+                                            <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\public\uploader.js" />
+                                        </Folder>
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\.npmignore" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\package.json" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\fileapi\server.js" />
+                                    </Folder>
+                                    <Folder name="serverstats">
+                                        <Folder name="public">
+                                            <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats\public\index.html" />
+                                        </Folder>
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats\package.json" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats\server.js" />
+                                    </Folder>
+                                    <Folder name="serverstats-express_3">
+                                        <Folder name="public">
+                                            <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats-express_3\public\index.html" />
+                                        </Folder>
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats-express_3\package.json" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\serverstats-express_3\server.js" />
+                                    </Folder>
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\examples\ssl.js" />
+                                </Folder>
+                                <Folder name="lib">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\browser.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\BufferPool.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\BufferUtil.fallback.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\BufferUtil.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\ErrorCodes.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Receiver.hixie.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Receiver.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Sender.hixie.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Sender.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Validation.fallback.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\Validation.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\WebSocket.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\lib\WebSocketServer.js" />
+                                </Folder>
+                                <Folder name="node_modules">
+                                    <Folder name="commander">
+                                        <Folder name="lib">
+                                            <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\lib\commander.js" />
+                                        </Folder>
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\.npmignore" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\.travis.yml" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\History.md" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\index.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\Makefile" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\package.json" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\commander\Readme.md" />
+                                    </Folder>
+                                    <Folder name="nan">
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\nan\.index.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\nan\LICENSE" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\nan\nan.h" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\nan\package.json" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\nan\README.md" />
+                                    </Folder>
+                                    <Folder name="options">
+                                        <Folder name="lib">
+                                            <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\lib\options.js" />
+                                        </Folder>
+                                        <Folder name="test">
+                                            <Folder name="fixtures">
+                                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\test\fixtures\test.conf" />
+                                            </Folder>
+                                            <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\test\options.test.js" />
+                                        </Folder>
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\.npmignore" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\Makefile" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\package.json" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\options\README.md" />
+                                    </Folder>
+                                    <Folder name="tinycolor">
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\.npmignore" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\example.js" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\package.json" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\README.md" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\node_modules\tinycolor\tinycolor.js" />
+                                    </Folder>
+                                </Folder>
+                                <Folder name="src">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\src\bufferutil.cc" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\src\validation.cc" />
+                                </Folder>
+                                <Folder name="test">
+                                    <Folder name="fixtures">
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\agent1-cert.pem" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\agent1-key.pem" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\ca1-cert.pem" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\ca1-key.pem" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\certificate.pem" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\key.pem" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\request.pem" />
+                                        <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\fixtures\textfile" />
+                                    </Folder>
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\autobahn-server.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\autobahn.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\BufferPool.test.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\hybi-common.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Receiver.hixie.test.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Receiver.test.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Sender.hixie.test.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Sender.test.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\testserver.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\Validation.test.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\WebSocket.integration.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\WebSocket.test.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\test\WebSocketServer.test.js" />
+                                </Folder>
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\.npmignore" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\.travis.yml" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\binding.gyp" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\builderror.log" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\History.md" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\index.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\Makefile" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\package.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\README.md" />
+                            </Folder>
+                            <Folder name="xmlhttprequest">
+                                <Folder name="example">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\example\demo.js" />
+                                </Folder>
+                                <Folder name="lib">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\lib\XMLHttpRequest.js" />
+                                </Folder>
+                                <Folder name="tests">
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-constants.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-events.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-exceptions.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-headers.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-request-methods.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\test-request-protocols.js" />
+                                    <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\tests\testdata.txt" />
+                                </Folder>
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\autotest.watchr" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\package.json" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\node_modules\xmlhttprequest\README.md" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="test">
+                            <Folder name="node">
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\test\node\builder.common.js" />
+                                <File name="node_modules\socket.io\node_modules\socket.io-client\test\node\builder.test.js" />
+                            </Folder>
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\test\events.test.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\test\io.test.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\test\parser.test.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\test\socket.test.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\test\util.test.js" />
+                            <File name="node_modules\socket.io\node_modules\socket.io-client\test\worker.js" />
+                        </Folder>
+                        <File name="node_modules\socket.io\node_modules\socket.io-client\.npmignore" />
+                        <File name="node_modules\socket.io\node_modules\socket.io-client\History.md" />
+                        <File name="node_modules\socket.io\node_modules\socket.io-client\Makefile" />
+                        <File name="node_modules\socket.io\node_modules\socket.io-client\package.json" />
+                        <File name="node_modules\socket.io\node_modules\socket.io-client\README.md" />
+                    </Folder>
+                </Folder>
+                <File name="node_modules\socket.io\.npmignore" />
+                <File name="node_modules\socket.io\.travis.yml" />
+                <File name="node_modules\socket.io\History.md" />
+                <File name="node_modules\socket.io\index.js" />
+                <File name="node_modules\socket.io\LICENSE" />
+                <File name="node_modules\socket.io\Makefile" />
+                <File name="node_modules\socket.io\package.json" />
+                <File name="node_modules\socket.io\Readme.md" />
+            </Folder>
+        </Folder>
+        <Folder name="public">
+            <Folder name="css">
+                <File name="public\css\global.css" />
+            </Folder>
+            <Folder name="js">
+                <File name="public\js\chat.js" />
+                <File name="public\js\chat_ui.js" />
+            </Folder>
+            <File name="public\index.html" />
+        </Folder>
+        <File name="index.js" />
+        <File name="nodejs.txt" />
+        <File name="package.json" />
+    </Project>
+</NotepadPlus>
